@@ -5,6 +5,10 @@ body {
 
 }
 
+main {
+    padding: 1.25rem 1.87rem 0 1.87rem;
+}
+
 .btn {
     font-size: 1.25rem;
     width: 161px;
