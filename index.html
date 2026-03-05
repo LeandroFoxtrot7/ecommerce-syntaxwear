@@ -4,28 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Syntaxe Wear</title>
+    <title>SyntaxeWear - Tênis e Snikers online</title>
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/layout.css">
+
+    <link rel="stylesheet" href="./css/components/header.css">
 </head>
 
 <body>
-    <header class="site-header">
-    </header>
-    <main>
-        <section class="hero-section">
-            <h1>Welcome to Syntaxe Wear</h1>
-        </section>
+    <header class="header">
+        <!-- Logo e navegação-->
+            <h1 class="logo">
+             <a href="/" title="SyntaxeWear - Tênis e Snikers online">
+                <img src="./images/logo/logo.svg" alt="SyntaxeWear - Tênis e Snikers online">
+             </a>
+            </h1>
+
+            <nav class="nav-center" aria-label="Categorias Principais">
+                <ul>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Feminino</a></li>
+                    <li><a href="#">Outlet</a></li>
+                </ul>
+            </nav>
+
+            <nav class="nav-right" aria-label="Menu Secundário">
+                <ul>
+                    <li><a href="#">Nossas lojas</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li>
+                        <a href="#" aria-label="usuário">
+                            <img src="./images/icons/user.svg" alt="Usuário">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="sobre">
+                            <img src="./images/icons/help.svg" alt="Ajuda">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="sacola">
+                            <img src="./images/icons/bag.svg" alt="Sacola">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         
         <section class="categories-section">
         </section>
         
         <section class="featured-products-section">
         </section>
-    </main>
+
     <footer class="site-footer">
     </footer>
 </body>
