@@ -4,7 +4,7 @@
     top: 35px;
     left: 50%;
     transform: translate(-50%);
-    width: calc(100% - 200px);
+    width: 1260px;
     border-radius: 15px;
     z-index: 999;
     display: flex;
@@ -49,9 +49,11 @@
 
 .nav-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
+    flex: 1;
+    margin-left: 10rem;
 }
 
 .menu-toggle {
@@ -79,7 +81,7 @@
 
 @media screen and (max-width: 1280px) {
     .header {
-        width: calc(100% - 200px);
+        width: calc(100% - 40px);
     }
 
     .menu-icon {
